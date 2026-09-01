@@ -1,0 +1,27 @@
+{
+  "private_rows": 1231,
+  "public_rows": 1231,
+  "private_students": 56,
+  "public_students": 56,
+  "private_questions": 68,
+  "public_questions": 68,
+  "max_abs_coefficient_difference": 0,
+  "aic_difference": 0,
+  "loglik_difference": 0,
+  "reproduces_primary_model": true,
+  "checks": {
+    "rows_match": true,
+    "students_match": true,
+    "questions_match": true,
+    "sessions_match": true,
+    "coefficients_match": true,
+    "aic_matches": true,
+    "loglik_matches": true,
+    "allowed_columns_only": true,
+    "direct_identifiers_absent": true,
+    "timestamps_absent": true,
+    "uuid_like_values_absent": true,
+    "email_like_values_absent": true,
+    "ip_like_values_absent": true
+  }
+}

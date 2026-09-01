@@ -1,0 +1,53 @@
+{
+  "R": {
+    "Version": "4.6.1",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "lme4": {
+      "Package": "lme4",
+      "Source": "CRAN"
+    },
+    "broom.mixed": {
+      "Package": "broom.mixed",
+      "Source": "CRAN"
+    },
+    "dplyr": {
+      "Package": "dplyr",
+      "Source": "CRAN"
+    },
+    "readr": {
+      "Package": "readr",
+      "Source": "CRAN"
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Source": "CRAN"
+    },
+    "ggplot2": {
+      "Package": "ggplot2",
+      "Source": "CRAN"
+    },
+    "scales": {
+      "Package": "scales",
+      "Source": "CRAN"
+    },
+    "jsonlite": {
+      "Package": "jsonlite",
+      "Source": "CRAN"
+    },
+    "performance": {
+      "Package": "performance",
+      "Source": "CRAN"
+    },
+    "emmeans": {
+      "Package": "emmeans",
+      "Source": "CRAN"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "LeibtiMeter Learning Analytics: Response Time and Answer Correctness Across Question Formats"
+message: "If you use this analysis pipeline or public dataset, please cite this repository."
+type: software
+authors:
+  - family-names: "LeibtiMeter project contributors"
+version: "1.0.0"
+date-released: "2026-09-01"
+repository-code: "https://github.com/OWNER/leibtimeter-learning-analytics"
+keywords:
+  - learning analytics
+  - classroom response systems
+  - mixed-effects logistic regression
+  - response time
+  - reproducible research

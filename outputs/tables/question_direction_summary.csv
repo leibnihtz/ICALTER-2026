@@ -1,0 +1,7 @@
+course,question_type,comparable_question_runs,correct_faster_runs,incorrect_faster_runs,ties,percentage_correct_faster
+BIG DATA,MultipleChoice,6,3,3,0,50.0
+BIG DATA,SingleChoice,11,9,2,0,81.81818181818183
+BIG DATA,TrueFalse,9,2,7,0,22.22222222222222
+REDES II,MultipleChoice,7,2,5,0,28.57142857142857
+REDES II,SingleChoice,13,9,4,0,69.23076923076923
+REDES II,TrueFalse,7,1,6,0,14.285714285714285

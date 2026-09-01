@@ -1,0 +1,3 @@
+course,unique_students,sessions,unique_questions,question_runs,responses,accuracy,mean_response_time,median_response_time
+BIG DATA,32,8,32,32,689,0.6995645863570392,23.810050798258345,19.591
+REDES II,24,7,36,37,542,0.6568265682656826,23.4720110701107,19.994999999999997

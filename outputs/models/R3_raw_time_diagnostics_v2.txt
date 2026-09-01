@@ -1,0 +1,27 @@
+R3 raw response-time GLMM diagnostics
+
+Formula: correct ~ response_time_seconds * question_type + course + (1 | student_id) + (1 | question_id)
+Converged: FALSE
+Convergence messages: Model failed to converge with max|grad| = 1.63415 (tol = 0.002, component 1)
+  See ?lme4::convergence and ?lme4::troubleshooting.; Model is nearly unidentifiable: very large eigenvalue
+ - Rescale variables?
+Singular fit: FALSE
+AIC: 1075.503753852
+BIC: 1121.54399298766
+logLik: -528.751876926
+n observations: 1231
+
+Variance-covariance matrix diagonal:
+(Intercept): 0.0883742473181805
+response_time_seconds: 9.07665094132262e-07
+question_typeMultipleChoice: 9.74091806142521e-07
+question_typeTrueFalse: 1.03864620423141e-06
+courseREDES II: 9.74030030494799e-07
+response_time_seconds:question_typeMultipleChoice: 9.2871333446003e-07
+response_time_seconds:question_typeTrueFalse: 9.1317775214856e-07
+
+Random-effect variances:
+question_id | (Intercept) | 3.87796220990273
+student_id | (Intercept) | 0.839666867650952
+
+SE sanity check passed: max absolute difference = 0

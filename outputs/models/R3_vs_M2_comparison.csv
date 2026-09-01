@@ -1,0 +1,4 @@
+term_concept,M2_direction,M2_significant,R3_direction,R3_significant,qualitative_consistency
+SingleChoice response-time slope,negative,FALSE,negative,TRUE,TRUE
+MultipleChoice vs SingleChoice slope difference,positive,FALSE,positive,TRUE,TRUE
+TrueFalse vs SingleChoice slope difference,positive,TRUE,positive,TRUE,TRUE

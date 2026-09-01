@@ -1,0 +1,158 @@
+{
+  "dataset": {
+    "responses_analysis": 1231,
+    "students": 56,
+    "courses": 2,
+    "questions": 68
+  },
+  "primary_model": {
+    "model": "M2",
+    "converged": true,
+    "singular": false,
+    "aic": 1076.7633692381955
+  },
+  "interaction_global_test": {
+    "chisq": 16.521939107344224,
+    "df": 2.0,
+    "p_value": 0.0002584083289821828,
+    "AIC_M1": 1089.2853083455398,
+    "AIC_M2": 1076.7633692381955,
+    "delta_AIC": -12.521939107344224
+  },
+  "question_type_interactions": {
+    "MultipleChoice_vs_SingleChoice": {
+      "term": "z_log_response_time:question_typeMultipleChoice",
+      "estimate_log_odds": 0.4418332274448409,
+      "standard_error": 0.3083606170259462,
+      "z_value": 1.4328458403871462,
+      "p_value": 0.1519018977975774,
+      "odds_ratio": 1.5555562947025336,
+      "CI95_lower": 0.8499799855586685,
+      "CI95_upper": 2.8468380751321307
+    },
+    "TrueFalse_vs_SingleChoice": {
+      "term": "z_log_response_time:question_typeTrueFalse",
+      "estimate_log_odds": 1.2515259401503152,
+      "standard_error": 0.3134710863225567,
+      "z_value": 3.9924764827034633,
+      "p_value": 6.53868194681712e-05,
+      "odds_ratio": 3.495673077606908,
+      "CI95_lower": 1.8910531588129489,
+      "CI95_upper": 6.46186502402519
+    }
+  },
+  "cross_course_test": {
+    "chisq": 3.923678370495736,
+    "df": 5.0,
+    "p_value": 0.5604559937557683,
+    "AIC_M2": 1076.7633692381955,
+    "AIC_M3": 1082.8396908676998,
+    "delta_AIC": 6.076321629504264
+  },
+  "empirical_support": [
+    {
+      "question_type": "MultipleChoice",
+      "minimum": 4.955,
+      "p5": 11.04255,
+      "p25": 19.555,
+      "median": 26.386,
+      "p75": 36.87725,
+      "p90": 57.0168,
+      "p95": 77.40145000000001,
+      "p99": 107.08723000000003,
+      "maximum": 118.837,
+      "n": 360
+    },
+    {
+      "question_type": "SingleChoice",
+      "minimum": 1.797,
+      "p5": 7.56345,
+      "p25": 13.79725,
+      "median": 19.342,
+      "p75": 26.9565,
+      "p90": 39.38170000000001,
+      "p95": 46.2251,
+      "p99": 62.5247,
+      "maximum": 119.701,
+      "n": 550
+    },
+    {
+      "question_type": "TrueFalse",
+      "minimum": 2.558,
+      "p5": 6.876,
+      "p25": 10.126,
+      "median": 14.136,
+      "p75": 20.69,
+      "p90": 30.699,
+      "p95": 37.458,
+      "p99": 48.51920000000002,
+      "maximum": 127.401,
+      "n": 321
+    }
+  ],
+  "question_level_direction": [
+    {
+      "course": "BIG DATA",
+      "question_type": "MultipleChoice",
+      "comparable_question_runs": 6,
+      "correct_faster_runs": 3,
+      "incorrect_faster_runs": 3,
+      "ties": 0,
+      "percentage_correct_faster": 50.0
+    },
+    {
+      "course": "BIG DATA",
+      "question_type": "SingleChoice",
+      "comparable_question_runs": 11,
+      "correct_faster_runs": 9,
+      "incorrect_faster_runs": 2,
+      "ties": 0,
+      "percentage_correct_faster": 81.81818181818183
+    },
+    {
+      "course": "BIG DATA",
+      "question_type": "TrueFalse",
+      "comparable_question_runs": 9,
+      "correct_faster_runs": 2,
+      "incorrect_faster_runs": 7,
+      "ties": 0,
+      "percentage_correct_faster": 22.22222222222222
+    },
+    {
+      "course": "REDES II",
+      "question_type": "MultipleChoice",
+      "comparable_question_runs": 7,
+      "correct_faster_runs": 2,
+      "incorrect_faster_runs": 5,
+      "ties": 0,
+      "percentage_correct_faster": 28.57142857142857
+    },
+    {
+      "course": "REDES II",
+      "question_type": "SingleChoice",
+      "comparable_question_runs": 13,
+      "correct_faster_runs": 9,
+      "incorrect_faster_runs": 4,
+      "ties": 0,
+      "percentage_correct_faster": 69.23076923076923
+    },
+    {
+      "course": "REDES II",
+      "question_type": "TrueFalse",
+      "comparable_question_runs": 7,
+      "correct_faster_runs": 1,
+      "incorrect_faster_runs": 6,
+      "ties": 0,
+      "percentage_correct_faster": 14.285714285714285
+    }
+  ],
+  "robustness_R3": {
+    "se_sanity_check_passed": true,
+    "converged": false,
+    "usable_as_robustness_evidence": false,
+    "qualitative_consistency_rows": 3,
+    "qualitative_consistency_total": 3
+  },
+  "recommended_claim": "The primary model supports moderation by question format, especially for TrueFalse versus SingleChoice, but robustness should be reported cautiously because the raw-time R3 model did not fully converge.",
+  "decision": "B"
+}

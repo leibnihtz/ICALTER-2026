@@ -1,0 +1,24 @@
+# Local runtimes and caches
+.r-lib/
+renv/library/
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large/local installers and manuscript drafts
+*.exe
+*.docx
+*.pptx
+
+# Keep the private dataset local. Publish only data/leibtimeter_public.csv.
+data/leibtimeter_paper_base.csv
+
+# Generated model objects can be reproduced from source data.
+outputs/models/*.rds
+
+# Private/internal validation artifacts derived from the source dataset.
+outputs/validation/
+outputs/VALIDATION_REPORT.md
+outputs/results_summary.json

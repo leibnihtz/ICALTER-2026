@@ -1,0 +1,5 @@
+model,formula,converged,convergence_message,singular,AIC,BIC,log_likelihood,n_observations,n_students,n_questions
+M0,correct ~ 1 + (1 | student_id) + (1 | question_id),TRUE,NA,FALSE,1102.0012846896382,1117.3480310681916,-548.0006423448191,1231,56,68
+M1,correct ~ z_log_response_time + course + question_type + (1 |      student_id) + (1 | question_id),TRUE,NA,FALSE,1089.2853083680595,1125.0943832513508,-537.6426541840298,1231,56,68
+M2,correct ~ z_log_response_time * question_type + course + (1 |      student_id) + (1 | question_id),TRUE,NA,FALSE,1076.7633692381955,1122.8036083738557,-529.3816846190978,1231,56,68
+M3,correct ~ z_log_response_time * question_type * course + (1 |      student_id) + (1 | question_id),TRUE,NA,FALSE,1082.8396908676998,1154.457840634282,-527.4198454338499,1231,56,68
