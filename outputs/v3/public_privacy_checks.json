@@ -1,0 +1,24 @@
+{
+  "rows": 3227,
+  "columns": [
+    "student_id",
+    "course",
+    "term",
+    "session_id",
+    "run_id",
+    "question_id",
+    "concept_id",
+    "question_type",
+    "response_time_seconds",
+    "is_correct",
+    "key_excluded"
+  ],
+  "allowed_columns_only": true,
+  "md5_like_values_absent": true,
+  "uuid_like_values_absent": true,
+  "email_like_values_absent": true,
+  "ip_like_values_absent": true,
+  "timestamps_absent": true,
+  "concept_tags_absent": true,
+  "all_passed": true
+}

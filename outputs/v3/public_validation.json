@@ -1,0 +1,19 @@
+{
+  "rows": [3109, 3109],
+  "students": [130, 130],
+  "questions": [135, 135],
+  "concepts": [45, 45],
+  "M2": {
+    "max_abs_coef_diff": 0,
+    "aic_diff": 0,
+    "loglik_diff": 0,
+    "aic": 2747.131623935112
+  },
+  "M4": {
+    "max_abs_coef_diff": 0,
+    "aic_diff": 0,
+    "loglik_diff": 0,
+    "aic": 2747.973220169759
+  },
+  "delta_zero": true
+}

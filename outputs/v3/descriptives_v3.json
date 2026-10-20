@@ -1,0 +1,153 @@
+{
+  "flow": {
+    "extracted": 3656,
+    "evaluable": 3228,
+    "within_cutoff": 3228,
+    "timestamp_valid": 3227,
+    "after_key_exclusion": 3109
+  },
+  "n_primary": {
+    "responses": 3109,
+    "students": 130,
+    "questions": 135,
+    "concepts": 45,
+    "sessions": 26,
+    "by_format": {
+      "SC": 1321,
+      "TF": 982,
+      "MC": 806
+    },
+    "by_offering": {
+      "BIG DATA 2026-1": 632,
+      "BIG DATA 2026-2": 770,
+      "REDES II 2026-1": 512,
+      "REDES II 2026-2": 1195
+    },
+    "accuracy": 0.7758
+  },
+  "n_uncorrected": {
+    "responses": 3227,
+    "students": 130,
+    "questions": 140,
+    "concepts": 46,
+    "sessions": 26,
+    "by_format": {
+      "SC": 1382,
+      "TF": 982,
+      "MC": 863
+    },
+    "by_offering": {
+      "BIG DATA 2026-1": 689,
+      "BIG DATA 2026-2": 770,
+      "REDES II 2026-1": 542,
+      "REDES II 2026-2": 1226
+    },
+    "accuracy": 0.7484
+  },
+  "excluded_key_responses": 118,
+  "rt_p99_pooled": 74.35180304,
+  "rt_support": [
+    {
+      "question_type": "MultipleChoice",
+      "count": 806.0,
+      "mean": 29.614,
+      "std": 12.191,
+      "min": 4.955,
+      "5%": 14.155,
+      "50%": 27.442,
+      "95%": 54.127,
+      "99%": 70.559,
+      "max": 97.298
+    },
+    {
+      "question_type": "SingleChoice",
+      "count": 1321.0,
+      "mean": 25.658,
+      "std": 15.328,
+      "min": 0.566,
+      "5%": 9.642,
+      "50%": 22.243,
+      "95%": 55.263,
+      "99%": 85.484,
+      "max": 119.701
+    },
+    {
+      "question_type": "TrueFalse",
+      "count": 982.0,
+      "mean": 17.31,
+      "std": 9.971,
+      "min": 2.376,
+      "5%": 7.35,
+      "50%": 14.722,
+      "95%": 35.144,
+      "99%": 51.477,
+      "max": 127.401
+    }
+  ],
+  "b3_SC_vs_TF": {
+    "concepts": 16,
+    "responses": 1493,
+    "SC_correct_faster": 10,
+    "TF_correct_faster": 6,
+    "TF_correct_slower": 10,
+    "both_directions_as_v2": 7
+  },
+  "b3_SC_vs_MC": {
+    "concepts": 14,
+    "responses": 1385,
+    "SC_correct_faster": 10,
+    "MC_correct_faster": 9,
+    "MC_correct_slower": 5,
+    "both_directions_as_v2": 2
+  },
+  "run_level_direction": [
+    {
+      "course": "BIG DATA",
+      "question_type": "MultipleChoice",
+      "comparable_question_runs": 13,
+      "correct_faster_runs": 7,
+      "incorrect_faster_runs": 6,
+      "percentage_correct_faster": 53.84615384615385
+    },
+    {
+      "course": "BIG DATA",
+      "question_type": "SingleChoice",
+      "comparable_question_runs": 24,
+      "correct_faster_runs": 16,
+      "incorrect_faster_runs": 8,
+      "percentage_correct_faster": 66.66666666666666
+    },
+    {
+      "course": "BIG DATA",
+      "question_type": "TrueFalse",
+      "comparable_question_runs": 18,
+      "correct_faster_runs": 7,
+      "incorrect_faster_runs": 11,
+      "percentage_correct_faster": 38.88888888888889
+    },
+    {
+      "course": "REDES II",
+      "question_type": "MultipleChoice",
+      "comparable_question_runs": 20,
+      "correct_faster_runs": 10,
+      "incorrect_faster_runs": 10,
+      "percentage_correct_faster": 50.0
+    },
+    {
+      "course": "REDES II",
+      "question_type": "SingleChoice",
+      "comparable_question_runs": 30,
+      "correct_faster_runs": 22,
+      "incorrect_faster_runs": 8,
+      "percentage_correct_faster": 73.33333333333333
+    },
+    {
+      "course": "REDES II",
+      "question_type": "TrueFalse",
+      "comparable_question_runs": 19,
+      "correct_faster_runs": 6,
+      "incorrect_faster_runs": 13,
+      "percentage_correct_faster": 31.57894736842105
+    }
+  ]
+}
