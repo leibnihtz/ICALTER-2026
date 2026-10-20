@@ -4,6 +4,53 @@ Reproducible statistical analysis pipeline for the ICALTER 2026 LeibtiMeter lear
 
 This repository contains the reproducible analysis for a Learning Analytics study of response time and answer correctness across classroom question formats. The pipeline validates the classroom-response dataset, generates descriptive tables and figures, fits mixed-effects logistic models in R, runs robustness checks, and produces machine-readable summaries plus human-readable validation reports.
 
+## ICALTER 2026 paper (v3) — start here
+
+The submitted paper uses **v3**: two terms (2026-1 + 2026-2), two courses (Big Data, Networks II), and concept-level analyses. The frozen version is the tag **`v3.0-paper-freeze`**.
+
+| What | File |
+|---|---|
+| Analysis plan, committed before any v3 model was fitted | `ANALYSIS_PLAN_v3.md` (commit `0e9131c`) |
+| All reported numbers (machine-readable, written by script) | `outputs/results_summary_v3.json` |
+| Human-readable results: models, tests, n, robustness | `REPORT_icalter_v3.md` |
+| Public dataset (3,227 rows; analysis set = `key_excluded == 0`, 3,109 rows) | `data/public_v3/leibtimeter_public_v3.csv` |
+| Figures | `figures/fig1_accuracy_rt_bands_v3.pdf`, `figures/fig2_predicted_m2_v3.pdf` |
+| Instrument and data audit (Part A) | `audit/icalter_v3_facts.json`, `audit/a8_reproduce_v2.json` |
+
+### Reproduce the main v3 results from the public dataset
+
+```bash
+Rscript src/18_v3_reproduce_from_public.R
+```
+
+It fits M1, M2 (primary) and M4 on the public dataset and checks them against `outputs/results_summary_v3.json` (expected output: `Matches results_summary_v3.json: TRUE`). Requires R with `lme4`, `dplyr`, `readr`, `jsonlite`.
+
+Primary model (M2):
+
+```text
+correct ~ z_log_rt * question_type + course + term + (1 | student_id) + (1 | question_id)
+z_log_rt = scale(log(1 + response_time_seconds)), reference format = SingleChoice
+```
+
+M4 adds `(1 | concept_id)`; M5 adds `(1 + z_log_rt | concept_id)`.
+
+### Public v3 dataset
+
+| Variable | Description |
+|---|---|
+| student_id, session_id, run_id, question_id, concept_id | Synthetic identifiers with no external meaning |
+| course, term | Course (BIG DATA, REDES II) and academic term (2026-1, 2026-2) |
+| question_type | SingleChoice, TrueFalse, or MultipleChoice |
+| response_time_seconds | Server-side time from question opening to submission |
+| is_correct | Correctness as scored by the platform at submission time |
+| key_excluded | 1 = question excluded for an answer-key error (ANALYSIS_PLAN_v3.md §2.3); kept for the uncorrected-label robustness check |
+
+No names, student codes, emails, IP addresses, device data, internal identifiers, exact timestamps or free text are included. The private pipeline (`src/11`–`src/17`) runs on a pseudonymized production extract that is not published; `src/16_v3_validate_public.R` confirmed that the public dataset reproduces M2 and M4 with Δ = 0 (`outputs/v3/public_validation.json`).
+
+## v2 pipeline (earlier draft, 2026-1 only)
+
+The sections below document the v2 pipeline. `outputs/results_summary_v2.json` is kept unchanged; `audit/a8_reproduce_v2.json` shows that it is reproduced exactly.
+
 ## Input
 
 Place the raw dataset at:

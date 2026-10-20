@@ -4,9 +4,9 @@ message: "If you use this analysis pipeline or public dataset, please cite this 
 type: software
 authors:
   - family-names: "LeibtiMeter project contributors"
-version: "1.0.0"
-date-released: "2026-09-01"
-repository-code: "https://github.com/OWNER/leibtimeter-learning-analytics"
+version: "3.0.0"
+date-released: "2026-10-20"
+repository-code: "https://github.com/leibnihtz/ICALTER-2026"
 keywords:
   - learning analytics
   - classroom response systems
