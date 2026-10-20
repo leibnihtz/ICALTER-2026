@@ -22,3 +22,8 @@ outputs/models/*.rds
 outputs/validation/
 outputs/VALIDATION_REPORT.md
 outputs/results_summary.json
+
+# ICALTER v3: extracción privada de producción y salt de seudonimización
+data/private_v3/
+*.salt
+.salt*

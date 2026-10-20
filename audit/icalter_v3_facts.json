@@ -1,0 +1,425 @@
+{
+  "generated_at": "2026-10-20T16:35:48+00:00",
+  "source": "data/private_v3 (sql_extract_icalter_v3.sql steps 1-2, extracted 2026-10-20)",
+  "A0": {
+    "by_offering": [
+      {
+        "offering": "BIG DATA 2026-1",
+        "sessions_total": 8,
+        "sessions_with_responses": 8,
+        "runs": 37,
+        "questions": 37,
+        "students": 32,
+        "responses_total": 784,
+        "responses_evaluable": 690,
+        "evaluable_SingleChoice": 236,
+        "evaluable_TrueFalse": 210,
+        "evaluable_MultipleChoice": 244,
+        "first_session_date": "2026-04-06",
+        "last_session_date": "2026-06-01"
+      },
+      {
+        "offering": "BIG DATA 2026-2",
+        "sessions_total": 5,
+        "sessions_with_responses": 5,
+        "runs": 36,
+        "questions": 36,
+        "students": 39,
+        "responses_total": 904,
+        "responses_evaluable": 770,
+        "evaluable_SingleChoice": 310,
+        "evaluable_TrueFalse": 270,
+        "evaluable_MultipleChoice": 190,
+        "first_session_date": "2026-09-11",
+        "last_session_date": "2026-10-09"
+      },
+      {
+        "offering": "REDES II 2026-1",
+        "sessions_total": 7,
+        "sessions_with_responses": 7,
+        "runs": 40,
+        "questions": 39,
+        "students": 24,
+        "responses_total": 597,
+        "responses_evaluable": 542,
+        "evaluable_SingleChoice": 314,
+        "evaluable_TrueFalse": 112,
+        "evaluable_MultipleChoice": 116,
+        "first_session_date": "2026-04-07",
+        "last_session_date": "2026-05-28"
+      },
+      {
+        "offering": "REDES II 2026-2",
+        "sessions_total": 6,
+        "sessions_with_responses": 6,
+        "runs": 56,
+        "questions": 47,
+        "students": 36,
+        "responses_total": 1371,
+        "responses_evaluable": 1226,
+        "evaluable_SingleChoice": 522,
+        "evaluable_TrueFalse": 391,
+        "evaluable_MultipleChoice": 313,
+        "first_session_date": "2026-09-02",
+        "last_session_date": "2026-10-16"
+      }
+    ],
+    "totals": {
+      "sessions": 26,
+      "responses": 3656,
+      "responses_evaluable": 3228,
+      "students": 130,
+      "students_in_both_terms": 1
+    },
+    "version_by_session": [
+      {
+        "version": "v2.0",
+        "sessions": 21,
+        "responses": 2387
+      },
+      {
+        "version": "v2.2",
+        "sessions": 5,
+        "responses": 1269
+      }
+    ],
+    "evaluable_responses_by_version": {
+      "v2.0": 2088,
+      "v2.2": 1140
+    },
+    "sessions_spanning_a_deploy": 0,
+    "cutoff_proposed": {
+      "last_closed_session_end_date": "2026-10-16",
+      "all_sessions_closed": true
+    },
+    "deploy_dates_assumed": {
+      "v2.0": null,
+      "v2.1": "2026-09-27",
+      "v2.2": "2026-09-29"
+    }
+  },
+  "A1": {
+    "known_key_errors": {
+      "questions": 3,
+      "responses": 59,
+      "detail": [
+        {
+          "question_id": "2e64446487175f3693326d8f374f7e3b",
+          "offering": "REDES II 2026-1",
+          "format": "SingleChoice",
+          "n": 16,
+          "accuracy": 0.0,
+          "in_v2_dataset": true
+        },
+        {
+          "question_id": "9a5b071450869af1f0062e4614e96799",
+          "offering": "BIG DATA 2026-1",
+          "format": "MultipleChoice",
+          "n": 29,
+          "accuracy": 0.0,
+          "in_v2_dataset": true
+        },
+        {
+          "question_id": "de74a3c0ac677254023f518cf74187b2",
+          "offering": "REDES II 2026-1",
+          "format": "SingleChoice",
+          "n": 14,
+          "accuracy": 0.21428571428571427,
+          "in_v2_dataset": true
+        }
+      ]
+    },
+    "threshold_candidates": [
+      {
+        "question_id": "6ddc4a8fe7344ce2a5ca8db88b6b3059",
+        "offering": "REDES II 2026-2",
+        "format": "SingleChoice",
+        "n": 31,
+        "accuracy": 0.0,
+        "reason": "accuracy<10%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "d3000ecafb2f9cecf2b43909743ae211",
+        "offering": "BIG DATA 2026-1",
+        "format": "MultipleChoice",
+        "n": 28,
+        "accuracy": 0.0,
+        "reason": "accuracy<10%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "ea585f54a9cd0dcb70eb6f4f5cbb5b78",
+        "offering": "REDES II 2026-1",
+        "format": "MultipleChoice",
+        "n": 19,
+        "accuracy": 0.0,
+        "reason": "accuracy<10%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "05c1eec86c525a6ce1484300ada797d5",
+        "offering": "REDES II 2026-2",
+        "format": "SingleChoice",
+        "n": 34,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "073ce59c38907f195c9c2f83cccb373e",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 16,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "1444ab04c1c5c566d99efa927a43a31e",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 13,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "1ce7ff518228ce33a850c9330d7068b5",
+        "offering": "BIG DATA 2026-2",
+        "format": "SingleChoice",
+        "n": 12,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "37da72c6c1e1c2372cfc1dfcea1339ba",
+        "offering": "BIG DATA 2026-1",
+        "format": "MultipleChoice",
+        "n": 28,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "3b77726bd3fb78f0acda0ffa148fbc4a",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 14,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "6e9534bb8a24cab7d7e41bb26415a861",
+        "offering": "REDES II 2026-2",
+        "format": "TrueFalse",
+        "n": 31,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "7a17e99604359ca1778b00bfda249278",
+        "offering": "BIG DATA 2026-2",
+        "format": "TrueFalse",
+        "n": 25,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "92a071244810efebb9bf3c39c687b749",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 20,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "98b0f67af7130bc0f31c289c546bb81e",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 20,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "a07f33126058d8dfc5f65b937e7677e9",
+        "offering": "BIG DATA 2026-1",
+        "format": "TrueFalse",
+        "n": 15,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "ab25bca5b6b7be996c994623c5d4c174",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 23,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "cb52e553b8df29f5af3bf786bb46030c",
+        "offering": "REDES II 2026-1",
+        "format": "SingleChoice",
+        "n": 14,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      },
+      {
+        "question_id": "efd7209a8b9ca54644a8fda9cd99f6a9",
+        "offering": "REDES II 2026-2",
+        "format": "TrueFalse",
+        "n": 33,
+        "accuracy": 1.0,
+        "reason": "accuracy>99%",
+        "concept_tagged": true
+      }
+    ],
+    "n_low_accuracy": 3,
+    "n_high_accuracy": 14,
+    "step3_cand_argument": "'6ddc4a8fe7344ce2a5ca8db88b6b3059','d3000ecafb2f9cecf2b43909743ae211','ea585f54a9cd0dcb70eb6f4f5cbb5b78'"
+  },
+  "A3": {
+    "sessions": 26,
+    "with_score_policy": 26,
+    "speed_bonus_enabled": 0,
+    "max_speed_bonus_nonzero": 0,
+    "speed_bonus_score_events": 0,
+    "policies": [
+      {
+        "policy_name": "Participación Simple",
+        "ParticipationPoints": 1,
+        "CorrectPoints": 4,
+        "IncorrectPoints": 0,
+        "AllowNegativeScore": "f",
+        "sessions": 26
+      }
+    ]
+  },
+  "A4": {
+    "runs_with_time_limit": 0,
+    "runs_total": 169,
+    "time_limit_distribution": {
+      "null": 169
+    },
+    "responses_over_time_limit": 0,
+    "responses_after_close": 1,
+    "evaluable_after_close": 1,
+    "runs_closed_manually": 68,
+    "rt_seconds_by_term_evaluable": {
+      "2026-1": {
+        "n": 1232.0,
+        "median": 19.856595,
+        "p95": 51.802573200000005,
+        "p99": 98.36292636000003,
+        "max": 127.400818
+      },
+      "2026-2": {
+        "n": 1996.0,
+        "median": 22.450877,
+        "p95": 54.463640749999996,
+        "p99": 78.92465024999994,
+        "max": 108.535187
+      }
+    }
+  },
+  "A7": {
+    "scope": "evaluable responses, excluding the 3 known key-error questions",
+    "coverage": {
+      "questions": 137,
+      "questions_with_concept": 137,
+      "questions_with_learning_outcome": 137,
+      "responses": 3169,
+      "responses_with_concept": 3169,
+      "distinct_concepts_course_scoped": 46
+    },
+    "per_concept": {
+      "questions": {
+        "min": 1,
+        "median": 2.0,
+        "max": 11
+      },
+      "responses": {
+        "min": 11,
+        "median": 43.5,
+        "max": 265
+      }
+    },
+    "format_combinations": {
+      "MC": {
+        "concepts": 6,
+        "responses": 177
+      },
+      "MC+SC": {
+        "concepts": 2,
+        "responses": 161
+      },
+      "MC+SC+TF": {
+        "concepts": 14,
+        "responses": 1924
+      },
+      "MC+TF": {
+        "concepts": 1,
+        "responses": 58
+      },
+      "SC": {
+        "concepts": 14,
+        "responses": 339
+      },
+      "SC+TF": {
+        "concepts": 5,
+        "responses": 396
+      },
+      "TF": {
+        "concepts": 4,
+        "responses": 114
+      }
+    },
+    "concepts_with": {
+      "SC+TF": {
+        "concepts": 19,
+        "responses": 2320
+      },
+      "SC+MC": {
+        "concepts": 16,
+        "responses": 2085
+      },
+      "TF+MC": {
+        "concepts": 15,
+        "responses": 1982
+      },
+      "SC+TF+MC": {
+        "concepts": 14,
+        "responses": 1924
+      }
+    },
+    "b3_eligible_concepts": {
+      "SC_vs_TF": 16,
+      "SC_vs_MC": 14
+    },
+    "concepts_by_terms_present": {
+      "2026-2": 24,
+      "2026-1+2026-2": 12,
+      "2026-1": 10
+    },
+    "tagging_time": {
+      "2026-1": {
+        "updated_before_first_use": 0,
+        "tagged_questions": 65
+      },
+      "2026-2": {
+        "updated_before_first_use": 54,
+        "tagged_questions": 72
+      }
+    }
+  }
+}

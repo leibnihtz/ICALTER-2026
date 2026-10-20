@@ -1,0 +1,21 @@
+question_id,term,offering,format,concept_tagged,known_key_error,n,accuracy,in_v2_dataset,reason
+2e64446487175f3693326d8f374f7e3b,2026-1,REDES II 2026-1,SingleChoice,False,True,16,0.0,True,known_key_error (ICITS)
+9a5b071450869af1f0062e4614e96799,2026-1,BIG DATA 2026-1,MultipleChoice,False,True,29,0.0,True,known_key_error (ICITS)
+de74a3c0ac677254023f518cf74187b2,2026-1,REDES II 2026-1,SingleChoice,False,True,14,0.21428571428571427,True,known_key_error (ICITS)
+6ddc4a8fe7344ce2a5ca8db88b6b3059,2026-2,REDES II 2026-2,SingleChoice,True,False,31,0.0,False,accuracy<10%
+d3000ecafb2f9cecf2b43909743ae211,2026-1,BIG DATA 2026-1,MultipleChoice,True,False,28,0.0,True,accuracy<10%
+ea585f54a9cd0dcb70eb6f4f5cbb5b78,2026-1,REDES II 2026-1,MultipleChoice,True,False,19,0.0,True,accuracy<10%
+05c1eec86c525a6ce1484300ada797d5,2026-2,REDES II 2026-2,SingleChoice,True,False,34,1.0,False,accuracy>99%
+073ce59c38907f195c9c2f83cccb373e,2026-1,REDES II 2026-1,SingleChoice,True,False,16,1.0,True,accuracy>99%
+1444ab04c1c5c566d99efa927a43a31e,2026-1,REDES II 2026-1,SingleChoice,True,False,13,1.0,True,accuracy>99%
+1ce7ff518228ce33a850c9330d7068b5,2026-2,BIG DATA 2026-2,SingleChoice,True,False,12,1.0,False,accuracy>99%
+37da72c6c1e1c2372cfc1dfcea1339ba,2026-1,BIG DATA 2026-1,MultipleChoice,True,False,28,1.0,True,accuracy>99%
+3b77726bd3fb78f0acda0ffa148fbc4a,2026-1,REDES II 2026-1,SingleChoice,True,False,14,1.0,True,accuracy>99%
+6e9534bb8a24cab7d7e41bb26415a861,2026-2,REDES II 2026-2,TrueFalse,True,False,31,1.0,False,accuracy>99%
+7a17e99604359ca1778b00bfda249278,2026-2,BIG DATA 2026-2,TrueFalse,True,False,25,1.0,False,accuracy>99%
+92a071244810efebb9bf3c39c687b749,2026-1,REDES II 2026-1,SingleChoice,True,False,20,1.0,True,accuracy>99%
+98b0f67af7130bc0f31c289c546bb81e,2026-1,REDES II 2026-1,SingleChoice,True,False,20,1.0,True,accuracy>99%
+a07f33126058d8dfc5f65b937e7677e9,2026-1,BIG DATA 2026-1,TrueFalse,True,False,15,1.0,True,accuracy>99%
+ab25bca5b6b7be996c994623c5d4c174,2026-1,REDES II 2026-1,SingleChoice,True,False,23,1.0,True,accuracy>99%
+cb52e553b8df29f5af3bf786bb46030c,2026-1,REDES II 2026-1,SingleChoice,True,False,14,1.0,True,accuracy>99%
+efd7209a8b9ca54644a8fda9cd99f6a9,2026-2,REDES II 2026-2,TrueFalse,True,False,33,1.0,False,accuracy>99%
