@@ -1,0 +1,123 @@
+{
+  "note": "post-freeze supplement; derived from the frozen v3 data and model",
+  "provenance": {
+    "script": "src/18_v3_supplement.R",
+    "freeze_tag": "v3.0-paper-freeze",
+    "freeze_commit": "18c6ceeb94019d47e22a4fc61f42779919c6b2c9",
+    "private_input": "data/private_v3/q4_responses.csv",
+    "public_input": "data/public_v3/leibtimeter_public_v3.csv",
+    "input_md5": {
+      "data/private_v3/q4_responses.csv": "b8d4d105e2c3bfefe7e51ac1b0cf2fb2",
+      "data/public_v3/leibtimeter_public_v3.csv": "7deab262f42a9391e57e7663e565ff7b"
+    },
+    "frozen_summary_md5": "8a06b3ba62920a5f33aae90ac086e912",
+    "R_version": "R version 4.6.1 (2026-06-24 ucrt)",
+    "lme4_version": "2.0.6"
+  },
+  "M2_comparison": {
+    "n_private": 3109,
+    "n_public": 3109,
+    "max_abs_coef_diff": 0,
+    "max_abs_vcov_diff": 0,
+    "aic_diff": 0,
+    "loglik_diff": 0,
+    "both_converged": true,
+    "both_nonsingular": true
+  },
+  "format_slopes": {
+    "TF": {
+      "log_odds": 0.360910003331452,
+      "se": 0.130205562014912,
+      "odds_ratio": 1.43463434275711,
+      "CI95_lower": 1.11150148582453,
+      "CI95_upper": 1.85170755385121,
+      "covariance_SC_interaction": -0.0109314398540295
+    },
+    "MC": {
+      "log_odds": 0.123143059066507,
+      "se": 0.145444703585429,
+      "odds_ratio": 1.13104621578991,
+      "CI95_lower": 0.850506417423639,
+      "CI95_upper": 1.50412215127999,
+      "covariance_SC_interaction": -0.0107598491723636
+    }
+  },
+  "offerings": {
+    "BD-1": {
+      "responses": 632,
+      "students": 32,
+      "questions": 30
+    },
+    "RII-1": {
+      "responses": 512,
+      "students": 24,
+      "questions": 34
+    },
+    "BD-2": {
+      "responses": 770,
+      "students": 39,
+      "questions": 31
+    },
+    "RII-2": {
+      "responses": 1195,
+      "students": 36,
+      "questions": 40
+    }
+  },
+  "by_term": {
+    "2026-1": {
+      "responses": 1144,
+      "students": 56,
+      "questions": 64
+    },
+    "2026-2": {
+      "responses": 1965,
+      "students": 75,
+      "questions": 71
+    }
+  },
+  "total_unique": {
+    "responses": 3109,
+    "students": 130,
+    "questions": 135
+  },
+  "students_in_both_terms": 1,
+  "standardization": {
+    "pooled": {
+      "n": 3109,
+      "log1p_mean": 3.08841958205509,
+      "log1p_sd": 0.514911487850089
+    },
+    "2026-1": {
+      "n": 1144,
+      "log1p_mean": 2.98982994986254,
+      "log1p_sd": 0.515637409347979
+    },
+    "2026-2": {
+      "n": 1965,
+      "log1p_mean": 3.14581731194226,
+      "log1p_sd": 0.50584146080848
+    },
+    "p99_trim": {
+      "n": 3077,
+      "log1p_mean": 3.07378337930117,
+      "log1p_sd": 0.496867264941724
+    },
+    "uncorrected_labels": {
+      "n": 3227,
+      "log1p_mean": 3.10990634683014,
+      "log1p_sd": 0.532235498851438
+    }
+  },
+  "p99_cutoff_seconds": 74.35180304,
+  "checks": {
+    "private_public_M2_exact": true,
+    "rounded_slopes_expected": true,
+    "offering_counts_expected": true,
+    "term_sums_expected": true,
+    "unique_total_expected": true,
+    "private_public_scaling_equal": true,
+    "frozen_artifacts_unchanged": true
+  },
+  "differences": []
+}
